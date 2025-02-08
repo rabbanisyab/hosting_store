@@ -25,7 +25,7 @@
                     onfocus="(this.type='date')"
                     id="date"
                   />
-                  <button type="submit" class="button button-booking">Send</button>
+                  <button type="submit" class="button button-booking"></button>
                 </form>
               </div>
             </div>
@@ -39,7 +39,7 @@
             >Package Hosting</span
           >
           <h2 class="section__title" style="text-align: center">
-            The Best Tour For You
+            The Best Package For You
           </h2>
 
           <div class="popular__all">

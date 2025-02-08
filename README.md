@@ -1,13 +1,9 @@
-# Travel Website Dengan Laravel
-
-## Preview
-
-![preview img](/preview.png)
+# Hosting Website Dengan Laravel
 
 ### Download Project
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/travel-website-laravel.git project-name
+  git clone https://github.com/rabbanisyab/hosting_store.git project-name
 ```
 
 Go to the project directory
