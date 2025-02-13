@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +47,6 @@ Route::post('booking', [App\Http\Controllers\BookingController::class, 'store'])
 
 // Domain Search
 Route::get('search-domain', [\App\Http\Controllers\DomainSearchController::class, 'search'])->name('domain.search');
+
+Route::post('/payment/create', [PaymentController::class, 'create'])->name('payment.create');
+Route::post('/payment/callback', [PaymentController::class, 'callback'])->name('payment.callback');

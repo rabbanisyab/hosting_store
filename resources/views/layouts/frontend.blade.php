@@ -87,51 +87,26 @@
 
                 <div class="footer__content">
                     <div>
+                        <h3 class="footer__title">Our Location</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">SMK NEGERI 1 CIOMAS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
                         <h3 class="footer__title">About</h3>
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About Us</a>
+                                <a href="#" class="footer__link">Home</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Features </a>
+                                <a href="#" class="footer__link">Hosting Package</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">News & Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="footer__title">Company</h3>
-
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link"
-                                    >How We Work?
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Capital </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Security</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="footer__title">Support</h3>
-
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link">FAQs </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"
-                                    >Support center
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link"> Contact Us</a>
+                                <a href="#" class="footer__link">Contact</a>
                             </li>
                         </ul>
                     </div>

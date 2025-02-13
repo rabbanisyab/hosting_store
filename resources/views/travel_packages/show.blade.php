@@ -11,22 +11,16 @@
             <div class="package-travel">
               <h3>Order Now</h3>
               <div class="card">
-                <form action="{{ route('booking.store') }}" method="post">
-                  @csrf 
+              <form action="{{ route('payment.create') }}" method="POST">
+                  @csrf
                   <input type="hidden" name="travel_package_id" value="{{ $travel_package->id }}">
-                  <input type="text" name="name" placeholder="Your Name" />
-                  <input type="email" name="email" placeholder="Your Email" />
-                  <input type="number" name="number_phone" placeholder="Your Number" />
-                  <input
-                    placeholder="Your order date"
-                    class="textbox-n"
-                    type="text"
-                    name="date"
-                    onfocus="(this.type='date')"
-                    id="date"
-                  />
-                  <button type="submit" class="button button-booking"></button>
-                </form>
+                  <input type="text" name="name" placeholder="Nama" required>
+                  <input type="email" name="email" placeholder="Email" required>
+                  <input type="text" name="phone" placeholder="No HP" required>
+                  <input type="date" name="payment_date" required>
+                  <input type="hidden" name="total_price" value="{{ $travel_package->price }}">
+                  <button type="submit">Bayar Sekarang</button>
+              </form>
               </div>
             </div>
           </div>
