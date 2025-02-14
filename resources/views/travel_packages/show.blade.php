@@ -19,7 +19,7 @@
                   <input type="text" name="phone" placeholder="No HP" required>
                   <input type="date" name="payment_date" required>
                   <input type="hidden" name="total_price" value="{{ $travel_package->price }}">
-                  <button type="submit">Bayar Sekarang</button>
+                  <button type="submit" class="button button-booking">Bayar Sekarang</button>
               </form>
               </div>
             </div>

@@ -106,6 +106,9 @@
                                 <a href="#" class="footer__link">Hosting Package</a>
                             </li>
                             <li>
+                                <a href="#" class="footer__link">Domain</a>
+                            </li>
+                            <li>
                                 <a href="#" class="footer__link">Contact</a>
                             </li>
                         </ul>
