@@ -4,7 +4,7 @@
 <section class="payment-section">
     <div class="container">
         <div class="payment-card">
-            <h1>Pembayaran Paket Travel</h1>
+            <h1>Pembayaran Paket Hosting</h1>
             <p>Silakan klik tombol di bawah untuk melakukan pembayaran.</p>
             <button id="pay-button">Bayar Sekarang</button>
         </div>
